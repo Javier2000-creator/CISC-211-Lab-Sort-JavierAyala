@@ -405,6 +405,7 @@ int main ( void )
     isUSARTTxComplete = false;
     
     printAndWait((char*)uartTxBuffer,&isUSARTTxComplete);
+    
 
 #endif
 
